@@ -33,7 +33,7 @@ ESP32-Experiments/
 ├── server/
 |   └── mosquitto_sub.py    # Roda o servidor mosquitto
 |
-├── config.json      # Configurações da rede e do MQTT
+├── config.json      # Configurações das variáveis
 │
 ├── README.md           # Documentação do projeto
 └── requirements.txt    # Dependências (se necessário)
