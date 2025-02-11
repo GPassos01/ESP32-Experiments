@@ -36,6 +36,7 @@ class MQTTClientHandler:
         :param mensagem: A mensagem que será enviada ao broker.
         """
         try:
+            self.conectar()
             print(f"Publicando: {mensagem}")
             self.client.publish(self.topic, mensagem)  # Envia a mensagem para o broker no tópico definido
             print("Mensagem publicada com sucesso!")
