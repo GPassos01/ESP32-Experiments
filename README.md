@@ -2,7 +2,7 @@
 
 Este repositório contem diversos projetos e experimentos utilizando o ESP32, explorando diferentes sensores, protocolos de comunicação e aplicações. Cada projeto está organizado em uma pasta separada, com seu próprio código e documentação.
 
-##📌 Objetivo
+## 📌 Objetivo
 
 Este repositório tem como objetivo armazenar e documentar os experimentos e implementações utilizando o ESP32, organizando-os de forma modular e reutilizável para facilitar a replicação e evolução dos projetos. A ideia é desenvolver projetos para fins de aprendizados.
 
