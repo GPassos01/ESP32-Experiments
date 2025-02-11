@@ -13,6 +13,7 @@ Este projeto utiliza um **ESP32** para medir distâncias com um sensor ultrassô
 - **ESP32**
 - **Sensor Ultrassônico HC-SR04**
 - **Broker MQTT** (Mosquitto)
+- **Micropython**
 - **Computador Pessoal** para receber os dados
 - **Telefone Celular** para vizualizar os dados (opcional)
 
@@ -45,7 +46,6 @@ ESP32-Experiments/
 
 - Instale o **MicroPython** no ESP32, caso ainda não tenha.
 - Use **Thonny** ou **rshell** para enviar os arquivos para a placa.
-- Importante que os arquivos mantenha a estrutura de diretórios do repositório para devido funcionamento
 
 ### 2️⃣ Configurar a Conexão Wi-Fi
 
@@ -58,7 +58,7 @@ Edite o arquivo **config.json** e insira os dados necessários:
     "password": "SUA_SENHA"
   },
   "mqtt": {
-    "broker": "192.168.1.100",
+    "broker": "BROKER_IP",
     "port": 1883,
     "topic": "esp32/distance"
   }
@@ -68,13 +68,16 @@ Edite o arquivo **config.json** e insira os dados necessários:
 ### 3️⃣ Rodar o Código
 
 - Envie os arquivos **main.py** e a pasta **/src** para o **ESP32**.
+- Importante que os arquivos mantenham a estrutura de diretórios do repositório para devido funcionamento
 - Reinicie a placa e acompanhe o terminal para interação com a placa.
 
 ## 📡 Testando com MQTT
 
-No seu computador, rode o arquivo **/server/mosquitto_sub.py** com o seguinte comando para verificar os dados recebidos do ESP32:
+Nesse projeto foi usado o Broker Mosquitto, disponivel para download em: <https://mosquitto.org/download/>
 
-```sh
+No seu computador, rode o arquivo `/server/mosquitto_sub.py` com o seguinte comando para verificar os dados recebidos do ESP32:
+
+```cmd
 python mosquitto_sub.py
 ```
 
