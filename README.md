@@ -1,6 +1,10 @@
 # 🚀 ESP32 - Projetos e Experimentos
 
-Este repositório contera diversos projetos e experimentos utilizando o ESP32, explorando diferentes sensores, protocolos de comunicação e aplicações. Cada projeto está organizado em uma pasta separada, com seu próprio código e documentação.
+Este repositório contem diversos projetos e experimentos utilizando o ESP32, explorando diferentes sensores, protocolos de comunicação e aplicações. Cada projeto está organizado em uma pasta separada, com seu próprio código e documentação.
+
+##📌 Objetivo
+
+Este repositório tem como objetivo armazenar e documentar os experimentos e implementações utilizando o ESP32, organizando-os de forma modular e reutilizável para facilitar a replicação e evolução dos projetos. A ideia é desenvolver projetos para fins de aprendizados.
 
 ## 📁 Estrutura do Repositório
 
@@ -59,10 +63,10 @@ ESP32-Projects/
 
 ## 📡 Monitoramento MQTT
 
-Se algum projeto utilizar MQTT, você pode visualizar os dados usando:
+Se algum projeto utilizar MQTT, você pode visualizar os dados entrando na pasta `/server` e executando o script `mosquitto_sub.py` no seu computador:
 
 ```bash
-mosquitto_sub -h 192.168.1.100 -t esp32/sensor
+python mosquitto_sub.py
 ```
 
 ## 🔜 Melhorias Futuras
