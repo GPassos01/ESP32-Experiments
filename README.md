@@ -20,7 +20,7 @@ ESP32-Projects/
 |   ├── config.json
 │   └── README.md
 │
-├── Projeto2_EM_PRODUÇÃO/
+├── Projeto2_EM_BREVE/
 │   ├── boot/
 │   ├── main/
 │   ├── src/
