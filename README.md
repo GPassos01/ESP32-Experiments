@@ -24,13 +24,7 @@ ESP32-Projects/
 │   ├── boot/
 │   ├── main/
 │   ├── src/
-│   ├── README.md
-│
-├── Projeto3_EM_PRODUÇÃO/  # Controla um LED via interface web
-│   ├── boot/
-│   ├── main/
-│   ├── src/
-│   ├── README.md
+│   └── README.md
 │
 └── README.md  # Visão geral do repositório
 ```
@@ -42,15 +36,7 @@ ESP32-Projects/
 - Mede distâncias com um HC-SR04
 - Envia dados via MQTT para um broker
 
-🔹 **Projeto 2: Sensor de Temperatura MQTT**
-
-- Utiliza um sensor DHT11/DHT22
-- Envia leituras para um servidor MQTT
-
-🔹 **Projeto 3: Controle de LED via Web**
-
-- Cria um servidor web no ESP32
-- Permite controlar um LED remotamente
+🔹 **Mais projetos em breve**
 
 ## 🔧 Como Utilizar
 
