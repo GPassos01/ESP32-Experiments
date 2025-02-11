@@ -45,11 +45,11 @@ ESP32-Experiments/
 ### 1️⃣ Configurar o ESP32
 
 - Instale o **MicroPython** no ESP32, caso ainda não tenha.
-- Use **Thonny** ou **rshell** para enviar os arquivos para a placa.
+- Use **Thonny** ou **rshell** para enviar os **arquivos** da pasta `/ESP32` para a placa.
 
 ### 2️⃣ Configurar a Conexão Wi-Fi
 
-Edite o arquivo **config.json** e insira os dados necessários:
+Edite o arquivo `config.json` e insira os dados necessários:
 
 ```json
 {
