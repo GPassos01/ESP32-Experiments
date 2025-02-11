@@ -65,7 +65,8 @@ def main():
         elif opcao== "2":
             # Inicia o envio do dado via MQTT
             try:
-                mqtt_client.publicar_mensagem(distancia)
+                mensagem = f"{distancia} cm"
+                mqtt_client.publicar_mensagem(mensagem)
             except NameError:
                 print('Nenhuma medição foi feita. Selecione a opção "1" para fazer a medição')
 
