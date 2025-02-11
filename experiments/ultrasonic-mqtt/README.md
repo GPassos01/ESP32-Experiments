@@ -14,6 +14,7 @@ Este projeto utiliza um **ESP32** para medir distâncias com um sensor ultrassô
 - **Sensor Ultrassônico HC-SR04**
 - **Broker MQTT** (Mosquitto)
 - **Computador Pessoal** para receber os dados
+- **Telefone Celular** para vizualizar os dados (opcional)
 
 ## 📁 Estrutura do Projeto
 
