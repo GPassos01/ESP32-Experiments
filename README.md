@@ -11,19 +11,22 @@ Este repositório tem como objetivo armazenar e documentar os experimentos e imp
 ```plaintext
 ESP32-Projects/
 │
-├── Projeto1_Sensor_Ultrassonico/  # Mede distância e envia via MQTT
+├── ultrasonic-mqtt/  # Mede distância e envia via MQTT
+│   ├── boot.py
+│   ├── main.py
+│   ├── src/
+|   ├── server/
+|   ├── lib/
+|   ├── config.json
+│   └── README.md
+│
+├── Projeto2_EM_PRODUÇÃO/
 │   ├── boot/
 │   ├── main/
 │   ├── src/
 │   ├── README.md
 │
-├── Projeto2_MQTT_Temperatura/  # Coleta temperatura e envia para servidor MQTT
-│   ├── boot/
-│   ├── main/
-│   ├── src/
-│   ├── README.md
-│
-├── Projeto3_WebServer_LED/  # Controla um LED via interface web
+├── Projeto3_EM_PRODUÇÃO/  # Controla um LED via interface web
 │   ├── boot/
 │   ├── main/
 │   ├── src/
@@ -55,19 +58,11 @@ ESP32-Projects/
 
 2️⃣ Escolher um projeto e navegar até sua pasta
 
-3️⃣ Configurar o Wi-Fi/MQTT no `config.json` do projeto
+3️⃣ Conferir o `README.md` do projeto para detalhes sobre sua utilização específica
 
 4️⃣ Enviar os arquivos para a placa (usando Thonny, rshell ou ampy)
 
 5️⃣ Rodar o projeto e monitorar os logs
-
-## 📡 Monitoramento MQTT
-
-Se algum projeto utilizar MQTT, você pode visualizar os dados entrando na pasta `/server` e executando o script `mosquitto_sub.py` no seu computador:
-
-```bash
-python mosquitto_sub.py
-```
 
 ## 🔜 Melhorias Futuras
 
